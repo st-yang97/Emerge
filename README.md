@@ -1,4 +1,4 @@
-# Emerge
+# Emerge123
 
 Emerge is a Python toolkit for harmonising single-cell RNA sequencing (scRNA-seq) data with
 spatially resolved FISH-like transcriptomic measurements. It aligns cell types across
