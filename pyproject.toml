@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "emerge"
+version = "0.1.1"
+description = "Emerge pipelines"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Shi-Tong Yang", email = "styang@mails.ccnu.edu.cn" }]
+dependencies = [
+  "numpy>=1.23",
+  "scipy>=1.9",
+  "pandas>=1.5",
+  "anndata>=0.9",
+  "scanpy>=1.9",
+  "scikit-learn>=1.2",
+  "matplotlib>=3.7",
+  "POT>=0.9.3"
+]
+
+[project.urls]
+Homepage = "https://github.com/your/repo"
+
+# 自动发现包与子包（目录应重命名为 `emerge/`）
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["emerge*"]
+
+# 如有非代码资源再开启
+# [tool.setuptools.package-data]
+# "emerge" = ["data/*.json", "resources/*"]
+
+# 可选：extras
+# [project.optional-dependencies]
+# dev = ["pytest", "black", "ruff"]

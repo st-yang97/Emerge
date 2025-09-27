@@ -1,0 +1,9 @@
+pyproject.toml
+Emerge/__init__.py
+Emerge/_version.py
+Emerge/emerge.py
+Emerge.egg-info/PKG-INFO
+Emerge.egg-info/SOURCES.txt
+Emerge.egg-info/dependency_links.txt
+Emerge.egg-info/requires.txt
+Emerge.egg-info/top_level.txt
